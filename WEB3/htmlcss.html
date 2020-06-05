@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>htmlcss</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9a021aeeb7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" href="art/icon.png">
+</head>
+<body>
+
+<nav class="navbar bg-dark navbar-expand-md navbar-dark">
+
+    <!--Логотип-->
+    <a class="navbar-brand" href="general.html">
+        <img src="art/menu.png" alt="Logo" style="width:50px;">
+    </a>
+    <ul class="navbar-nav">
+
+        <!--Сайты-->
+        <li class="nav-item">
+            <a class="nav-link navbar-dark" href="carousel.html">WEB</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link navbar-dark" href="htmlcss.html">CSS/HTML</a>
+        </li>
+
+        <!--Выплывающее меню первый уровень-->
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                Открой меня
+            </a>
+            <div class="dropdown-menu bg-dark">
+                <a class="nav-link dropdown-item bg-dark" href="cvg.html">SVG</a>
+                <a class="nav-link dropdown-item bg-dark" href="wath.html">MathML</a>
+
+                <!--Выплывающее меню второй уровень-->
+                <a class="nav-link dropdown-item dropdown-toggle bg-dark" href="#" data-toggle="dropdown">
+                    Задания
+                </a>
+                <div class="dropdown-menu bg-dark">
+                    <a class="nav-link dropdown-item bg-dark" href="макет%20из%201.html">Задание 1</a>
+                    <a class="nav-link dropdown-item bg-dark" href="макет.html">Задание 2</a>
+                </div>
+            </div>
+        </li>
+    </ul>
+</nav>
+
+<!-- Хлебные крошки -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="container a col-xs-12 col-lg-12 col-sm-12 col-md-12">
+            <nav aria-label="breadcrumb">
+                <nav aria-label="breadcrumb">
+                    <ol class="col breadcrumb">
+                        <li class="breadcrumb-item"><a class="text-success" href="htmlcss.html">СSS/HTML</a></li>
+                        <li class="breadcrumb-item"><a class="text-success" href="htmlcss.html">Вложенные вкладки</a>
+                        </li>
+                        <li class="breadcrumb-item"><a class="text-success" href="htmlcss.html">Подсказки</a></li>
+                    </ol>
+                </nav>
+            </nav>
+        </div>
+    </div>
+</div>
+
+<!-- Тело страницы -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="txt container d-none d-lg-block col-lg-3 greeting razmer">
+            <div class="media mt-3">
+                <img class="mr-3" src="art/foto.jpg" height="150px" width="100px">
+                <div class="media-body">
+                    <h5 class="mt-0">ЗДВАСТВУЙТЕ!</h5>
+                    <h6>
+                        это моё задание по ВЕБ программированию, надеюсь оно вам понравится ^^
+                    </h6>
+                </div>
+            </div>
+        </div>
+        <div class="container col-md-9 col-lg-8 col-md-11 col-xs-11">
+            <!--ВКЛАДКИ-->
+            <div class="container">
+                <ul class="col1 nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="tab" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#SCC">SCC</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#HTML">HTML</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div id="home" class="container tab-pane active"><br>
+                        <h4>HOME</h4>
+                        <p></p>
+                        Здесь будут представлены фрагменты кода на CSS и HTML
+                        </p>
+                    </div>
+                    <div id="SCC" class="container tab-pane fade"><br>
+                        <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top"
+                                title="Формальный язык описания внешнего вида документа, написанного с использованием языка разметки.">
+                            Фрагмент CSS
+                        </button>
+                        <p>
+                            <code>
+                                    <pre class="txt2">
+            body{
+                padding: 0;
+                margin: 0;
+            }
+                                    </pre>
+                            </code>
+                        </p>
+                    </div>
+                    <div id="HTML" class="container tab-pane fade"><br>
+                        <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top"
+                                title="Стандартизированный язык разметки документов во Всемирной паутине.">
+                            Фрагмент HTML
+                        </button>
+                        <p>
+                            <code>
+                                    <pre>
+            &lt;!DOCTYPE html&gt;
+            &lt;html&gt;
+            &lt;head&gt;
+                &lt;meta charset="utf-8" /&gt;
+                &lt;title>HTML5&lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+                &lt;p>Привет, мир&lt;/p&gt;
+            &lt;/body&gt;
+            &lt;/html&gt;
+                                    </pre>
+                            </code>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
+
+</body>
+</html>

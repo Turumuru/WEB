@@ -1,0 +1,146 @@
+.body {
+    margin: 0;
+    background: DimGrey;
+}
+
+#Header {
+    background: SlateGray;
+    height: 7%;
+}
+
+#Header img {
+    float: left;
+    margin-left: 3%;
+}
+
+a {
+    color: white;
+}
+
+#Header li {
+    font-weight: bolder;
+    color: white;
+    background: SlateGray;
+    display: block;
+    float: left;
+    padding: 16px;
+    position: relative;
+    width: 80px;
+    cursor: pointer;
+}
+
+#Header ul li ul li ul li {
+    width: 200px;
+}
+
+#Header li:hover {
+    background: LightGrey;
+}
+
+.Menu ul {
+    background: SlateGray;
+    visibility: hidden;
+    position: absolute;
+    margin-top: 1rem;
+    left: 0;
+    padding-left: 0;
+    width: 224px;
+}
+
+li:hover > ul {
+    background: SlateGray;
+    visibility: visible;
+    position: absolute;
+    display: block;
+}
+
+#LeftCol {
+    height: 64.2%;
+    width: 17%;
+    float: left;
+    padding-top: 7%;
+    background: Silver;
+}
+
+#LeftCol img {
+    height: 65%;
+    width: 90%;
+    margin-left: 2%;
+    border: 6px solid DimGrey;
+    border-radius: 20px;
+}
+
+#LeftCol p {
+    color: DarkSlateGray;
+    font-size: 150%;
+    text-align: center;
+}
+
+#Content {
+    height: 79%;
+    width: 69%;
+    float: left;
+    background: Honeydew;
+}
+
+#Content h1 {
+    text-align: center;
+    color: SteelBlue;
+}
+
+#Content img {
+    text-align: left;
+    width: 14%;
+    height: 36%;
+    border: 6px solid Honeydew;
+    border-radius: 20px;
+    float: left;
+}
+
+.content {
+    padding: 0.5%;
+    text-align: center;
+}
+
+#author {
+    text-align: right;
+    font-style: italic;
+    padding-right: 5%;
+}
+
+#RightCol {
+    height: 74.8%;
+    width: 10%;
+    float: right;
+    padding-left: 4%;
+    padding-top: 2%;
+    background: Silver;
+}
+
+#Footer {
+    height: 13%;
+    margin-top: 37.5%;
+}
+
+.Osel {
+    height: 100%;
+}
+
+#Shrek {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+}
+
+@media print {
+    #LeftCol, #Header, #RightCol, #Footer, img {
+        display: none;
+    }
+
+    #Content {
+        top: 10%;
+        height: 100%;
+        width: 100%;
+    }
+}

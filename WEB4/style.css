@@ -1,0 +1,72 @@
+body {
+    background: Salmon;
+    margin: 0;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: Salmon;
+}
+
+nav {
+    background: black;
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+}
+
+#content {
+    background: white;
+    height: 697px;
+    margin: auto;
+    width: 1450px;
+}
+
+#square {
+    margin: 15px;
+    width: 705px;
+    display: flex;
+    justify-content: space-around;
+    float: left;
+}
+
+#fore {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    width: 705px;
+    height: 205px;
+    float: right;
+}
+
+#matx {
+    width: 705px;
+    height: 320px;
+    margin-left: 40px;
+    margin-top: 40px;
+    float: left;
+}
+
+#func {
+    width: 705px;
+    height: 300px;
+    margin-top: 40px;
+    float: right;
+}
+
+.formula {
+    color: red;
+    float: right;
+}
+
+.create, .sort {
+    float: left;
+}
+
+#mass {
+
+}
+
+#sortmass
+
+.squ {
+    float: left;
+    padding-right: 45px;
+}

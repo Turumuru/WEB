@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Задалие 4</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="square.js"></script>
+    <script src="fore.js"></script>
+
+</head>
+<body>
+
+<nav>
+
+    <!--Задания-->
+    <p>Площадь фигуры(Эллипс)</p>
+    <p>Цыкл(Сумма)</p>
+    <p>Матрица</p>
+    <p>Функция</p>
+
+</nav>
+
+<!-- Контент -->
+<div id="content">
+
+    <!-- Эллипс -->
+    <div id="square">
+        <img src="Эллипс.png">
+        <form name="form1">
+            <p class="squ">Площадь эллипса</p>
+            <p class="formula">S = πab</p>
+            <p>Введите а: <input type="text" name="a" size=10></p>
+            <p>Введите b: <input type="text" name="b" size=10></p>
+            <input type="text" name="s" size=20><br>
+            <input type="button" value="Вычислить" onClick="square(form1)">
+            <input type="reset" value=Очистить>
+        </form>
+    </div>
+
+    <!-- Сумма -->
+    <div id="fore">
+        <form name="form2">
+            <p>Сумма ряда 1+Х+ Х^2/2!+ Х^3/3!+ Х^4/4!+ ...</p>
+            <p>Введите число Х < 1: <input type="text" name="x" size=10></p>
+            <input type="text" name="s" size=20><br>
+            <input type="button" value="Вычислить" onClick="fore(form2)">
+            <input type="reset" value=Очистить>
+        </form>
+    </div>
+
+    <!-- Матрица -->
+    <div id="matx">
+        <p>Матрица</p>
+        <button class="random">Сгенерировать массив</button>
+        <button class="change">Поменять max с первым</button>
+        <div id="table"></div>
+        <script src="matx.js"></script>
+    </div>
+
+    <!-- Функции -->
+    <div id="func">
+        <p>Функция</p>
+        <p>Введите минимальное значение:<input type="number" size="40" value="" class="min"></p>
+        <p>Введите максимальное значение:<input type="number" size="40" value="" class="max"></p>
+        <p>Введите размер массива:<input type="number" size="40" value="" class="n"></p>
+        <button class="create">Сгенерировать массив</button>
+        <div id="mass"></div>
+        <button class="sort">Отсортировать массив</button>
+        <div id="sortmass"></div>
+        <script src="func.js"></script>
+    </div>
+
+</div>
+
+</body>
+</html>

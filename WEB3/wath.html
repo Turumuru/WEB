@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MathML</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9a021aeeb7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" href="art/icon.png">
+</head>
+<body>
+
+<nav class="navbar bg-dark navbar-expand-md navbar-dark">
+
+    <!--Логотип-->
+    <a class="navbar-brand" href="general.html">
+        <img src="art/menu.png" alt="Logo" style="width:50px;">
+    </a>
+    <ul class="navbar-nav">
+
+        <!--Сайты-->
+        <li class="nav-item">
+            <a class="nav-link navbar-dark" href="carousel.html">WEB</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link navbar-dark" href="htmlcss.html">CSS/HTML</a>
+        </li>
+
+        <!--Выплывающее меню первый уровень-->
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                Открой меня
+            </a>
+            <div class="dropdown-menu bg-dark">
+                <a class="nav-link dropdown-item bg-dark" href="cvg.html">SVG</a>
+                <a class="nav-link dropdown-item bg-dark" href="wath.html">MathML</a>
+
+                <!--Выплывающее меню второй уровень-->
+                <a class="nav-link dropdown-item dropdown-toggle bg-dark" href="#" data-toggle="dropdown">
+                    Задания
+                </a>
+                <div class="dropdown-menu bg-dark">
+                    <a class="nav-link dropdown-item bg-dark" href="макет%20из%201.html">Задание 1</a>
+                    <a class="nav-link dropdown-item bg-dark" href="макет.html">Задание 2</a>
+                </div>
+            </div>
+        </li>
+    </ul>
+</nav>
+
+<!-- Хлебные крошки -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="container a col-xs-12 col-lg-12 col-sm-12 col-md-12">
+            <nav aria-label="breadcrumb">
+                <nav aria-label="breadcrumb">
+                    <ol class="col breadcrumb">
+                        <li class="breadcrumb-item"><a class="text-success" href="wath.html">MathML</a></li>
+                        <li class="breadcrumb-item"><a class="text-success" href="wath.html">Значки (bardge)</a></li>
+                    </ol>
+                </nav>
+            </nav>
+        </div>
+    </div>
+</div>
+
+<!-- Тело страницы -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="txt container d-none d-lg-block col-lg-3 greeting razmer">
+            <div class="media mt-3">
+                <img class="mr-3" src="art/foto.jpg" height="150px" width="100px">
+                <div class="media-body">
+                    <h5 class="mt-0">ЗДВАСТВУЙТЕ!</h5>
+                    <h6>
+                        это моё задание по ВЕБ программированию, надеюсь оно вам понравится ^^
+                    </h6>
+                </div>
+            </div>
+        </div>
+        <div class="container col-lg-8 col-sm-11 col-md-11 col-xs-11">
+            <div class="row">
+                <div class="math1 container col-lg-3 col-sm-6 col-md-6 col-xs-6">
+                    <div class="container mt-5">
+                        <math>
+                            <mstyle displaystyle=’true’>
+                                <munderover>
+                                    <mo>&int;</mo>
+                                    <mn>0</mn>
+                                    <mn>1</mn>
+                                </munderover>
+                                <mi>f</mi>
+                                <mrow>
+                                    <mfenced>
+                                        <mi>x</mi>
+                                    </mfenced>
+                                </mrow>
+                                <mtext>&VeryThinSpace;</mtext>
+                                <mo>&dd;</mo>
+                                <mi>x</mi>
+                            </mstyle>
+                        </math>
+                    </div>
+                </div>
+                <div class="math2 container col-lg-3 col-sm-6 col-md-6 col-xs-6">
+                    <div class="container mt-5">
+                        <math>
+                            <mstyle displaystyle=’true’>
+                                <munderover>
+                                    <mo>&sum;</mo>
+                                    <mrow>
+                                        <mi>i</mi>
+                                        <mo>=</mo>
+                                        <mn>1</mn>
+                                    </mrow>
+                                    <mi>&infin;</mi>
+                                </munderover>
+                                <msub>
+                                    <mi>x</mi>
+                                    <mi>i</mi>
+                                </msub>
+                                <mfrac>
+                                    <mrow>
+                                        <mo>-</mo>
+                                        <mi>b</mi>
+                                        <mo>&PlusMinus;</mo>
+                                        <msqrt>
+                                            <msup>
+                                                <mi>b</mi>
+                                                <mn>2</mn>
+                                            </msup>
+                                            <mo>-</mo>
+                                            <mn>4</mn>
+                                            <mi>a</mi>
+                                            <mi>c</mi>
+                                        </msqrt>
+                                    </mrow>
+                                    <mrow>
+                                        <mn>2</mn>
+                                        <mi>a</mi>
+                                    </mrow>
+                                </mfrac>
+                            </mstyle>
+                        </math>
+                    </div>
+                </div>
+                <div class="math1 container col-lg-5 col-sm-11 col-md-11 col-xs-11">
+                    <div class="container">
+                        <a href="#" class="badge badge-dark">Математическая формула</a>
+                        (от лат. formula — уменьшительное от forma — образ, вид) — в математике, а также физике и
+                        прикладных науках, символическая запись высказывания (которое выражает логическое суждение),
+                        либо формы высказывания. Формула, наряду с термами, является разновидностью выражения
+                        формализованного языка. В более широком смысле формула — всякая чисто символьная запись,
+                        противопоставляемая в математике различным выразительным способам, имеющим геометрическую
+                        коннотацию: чертежам, графикам, диаграммам, графам и т. п.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+</body>
+</html>

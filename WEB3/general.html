@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>general</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9a021aeeb7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" href="art/icon.png">
+</head>
+<body>
+
+<nav class="navbar bg-dark navbar-expand-md navbar-dark">
+
+    <!--Логотип-->
+    <a class="navbar-brand" href="general.html">
+        <img src="art/menu.png" alt="Logo" style="width:50px;">
+    </a>
+    <ul class="navbar-nav">
+
+        <!--Сайты-->
+        <li class="nav-item">
+            <a class="nav-link navbar-dark" href="carousel.html">WEB</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link navbar-dark" href="htmlcss.html">CSS/HTML</a>
+        </li>
+
+        <!--Выплывающее меню первый уровень-->
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                Открой меня
+            </a>
+            <div class="dropdown-menu bg-dark">
+                <a class="nav-link dropdown-item bg-dark" href="cvg.html">SVG</a>
+                <a class="nav-link dropdown-item bg-dark" href="wath.html">MathML</a>
+
+                <!--Выплывающее меню второй уровень-->
+                <a class="nav-link dropdown-item dropdown-toggle bg-dark" href="#" data-toggle="dropdown">
+                    Задания
+                </a>
+                <div class="dropdown-menu bg-dark">
+                    <a class="nav-link dropdown-item bg-dark" href="макет%20из%201.html">Задание 1</a>
+                    <a class="nav-link dropdown-item bg-dark" href="макет.html">Задание 2</a>
+                </div>
+            </div>
+        </li>
+    </ul>
+</nav>
+
+<!-- Хлебные крошки -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="container a col-xs-12 col-lg-12 col-sm-12 col-md-12">
+            <nav aria-label="breadcrumb">
+                <nav aria-label="breadcrumb">
+                    <ol class="col breadcrumb">
+                        <li class="breadcrumb-item"><a class="text-success" href="general.html">Главная</a></li>
+                        <li class="breadcrumb-item"><a class="text-success" href="general.html">Таблицы</a></li>
+                    </ol>
+                </nav>
+            </nav>
+        </div>
+    </div>
+</div>
+
+<!-- Тело страницы -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="txt container d-none d-lg-block col-lg-3 greeting">
+            <div class="media mt-3">
+                <img class="mr-3" src="art/foto.jpg" height="150px" width="100px">
+                <div class="media-body">
+                    <h5 class="mt-0">ЗДВАСТВУЙТЕ!</h5>
+                    <h6>
+                        это моё задание по ВЕБ программированию, надеюсь оно вам понравится ^^
+                    </h6>
+                </div>
+            </div>
+        </div>
+        <div class="container col-md-6 col-lg-4 col-xs-11 col-sm-11 greeting">
+            <h2>Мои социальные сети <i class="far fa-address-card"></i></h2>
+            <table class="table table-hover table-sm">
+                <thead>
+                <tr>
+                    <th>Соц сеть</th>
+                    <th>Ник</th>
+                    <th>Сылка</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>vk</td>
+                    <td>Настя Турушева</td>
+                    <td><a href="https://vk.com/fogtars" target="_blank">fogtars</a></td>
+                </tr>
+                <tr>
+                    <td>Telegram</td>
+                    <td>turumuru</td>
+                    <td><a href="@turumuru" target="_blank">turumuru</a></td>
+                </tr>
+                <tr>
+                    <td>githab</td>
+                    <td>Turumuru</td>
+                    <td><a href="https://github.com/Turumuru" target="_blank">Turumuru</a></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="container col-md-5 col-lg-4 col-xs-11 col-sm-11 greeting">
+            <h3 class="mt-5">Итоги I семестра <i class="far fa-bell"></i></h3>
+            <table class="table table-sm mt-3">
+                <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Предмет</th>
+                    <th>Оценка</th>
+                    <th>Зачет</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Линейная алгебра</td>
+                    <td>3</td>
+                    <td>Зачет</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Алгоритмы и структуры данных</td>
+                    <td>5</td>
+                    <td>Зачет</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Языки и методы программиромания</td>
+                    <td>5</td>
+                    <td>Зачет</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Иностранный язык</td>
+                    <td>-</td>
+                    <td>Зачет</td>
+                </tr>
+                <tr>
+                    <th scope="row">5</th>
+                    <td>Физическая культура</td>
+                    <td>-</td>
+                    <td>Зачет</td>
+                </tr>
+                <tr>
+                    <th scope="row">6</th>
+                    <td>Математический анализ</td>
+                    <td>-</td>
+                    <td>Зачет</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
